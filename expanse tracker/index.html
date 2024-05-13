@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main-conatiner">
+    <h1>Expense Tracker</h1>
+    <div class="box-item">
+      <h3>Item Name:</h3>
+      <input type="text" placeholder="Enter your item" class="itm">
+
+      <h3>Item Amount:</h3>
+      <input type="number" placeholder="Enter your amout" class="amt">
+      
+
+      <div class="btn">
+        <span><button onclick="add()">Add item</button></span>
+        <span><button onclick="clearAll()" id="scnd">Clear All</button></span>
+       <span><h3>Total:₹<p id="total">00</p></h3></span>
+      </div>
+    </div>
+    
+    <div class="item-list">
+      
+    </div>
+
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
